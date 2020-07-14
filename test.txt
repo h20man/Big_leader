@@ -1,0 +1,11 @@
+git 사용법
+
+PUSH 전엔 PULL 이있다.
+PULL
+git pull origin master : 지정 해놓은 repository 에서 끌어옵니다.
+
+PUSH
+git status : 현재 git과의 상태를 check
+git add . : 변경된 파일들을 모두 Tracking !
+git commit -m "message" : 인식 할수있는 commit을 달아줍니다.
+git push origin +master : 실제로 Git에 PUSH !
